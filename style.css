@@ -1,0 +1,293 @@
+*{
+    margin: 0; padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+	background-color:#F9F9F9;
+}
+h1{
+    font-size: 50px;
+    line-height: 2em;
+}
+h3{
+    font-size: 30px;
+    color: violet;
+}
+p{
+    margin-bottom: 30px;
+    text-align: justify;
+		
+}
+
+.orange-color{
+    color: orange;
+}
+.container{
+    display: flex;
+	
+    
+}
+
+.wrapper{
+    width: 50%;
+    padding: 5%;
+	
+}
+.wrapper img{
+    width: 90%;
+    
+}
+
+.link-button{
+    text-decoration: none;
+    padding: 15px 29px;
+    color: white;
+    font-size: 700;
+    background-image: linear-gradient(orange, tomato);
+    border-radius: 35px;
+	
+}
+.top-bannar{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+	background-size:cover;
+	background-position:fixed;
+	
+}
+
+/**2nd Section Start**/
+
+.contact-button{
+	text-decoration: none;
+    padding: 15px 28px;
+    color: white;
+    font-size: 700;
+    background-image: linear-gradient(orange, tomato);
+    border-radius: 35px;
+	
+}
+.contact-btn{
+	display: block;
+	margin-top:70px;
+}
+
+.middle-bannar{
+    background-image: url(images/middle-bannar.png);
+    background-repeat: no-repeat;
+	background-size:cover;
+	background-position:fixed;
+	
+}
+
+
+/*3rd Section Start*/
+
+
+
+.my-recipy{
+    display: block;
+    text-align: center;
+    line-height: 2em;
+	padding: 5px 15px;
+		
+}
+
+#recipy-container{
+	display:flex;
+	width:675px
+	margin-bottom 100px;
+	padding-bottom:10%;	
+}
+
+.foodmanu-1{
+	width:160px
+	border-radius 10px;
+	margin-right:15px;
+	padding-left:7px;
+	box-shadow: 0 0 15px 5px rgba(31, 73, 125, 0.35);
+	
+}
+.foodmanu-2{
+	width:160px
+	border-radius 10px;
+	margin-left:7px,
+	margin-right 7px,
+	padding-left 20px;
+	
+	border-color: 1px solid red;
+	box-shadow: 0 0 15px 5px rgba(31, 73, 125, 0.35);
+	
+
+}
+.foodmanu-3{
+	width:160px
+	border-radius 10px;
+	margin-left:15px;
+	padding:5px;
+	
+	border-color: 1px solid red;
+	box-shadow: 0 0 15px 5px rgba(31, 73, 125, 0.35);
+	
+
+}
+
+.manu-item-pic{
+	width:80%;
+	padding:7%;
+	
+}
+.manu-item-pic img{
+	width:100%;
+}
+
+.itemname{
+	width:85%;
+	padding:10px;
+	
+}
+
+/*******Statistics******/
+
+.fourth-bannar{
+	background-color:#F3F4ED;
+	width:100%;
+	text-align: center;
+	box-shadow: 0 0 15px 5px rgba(31, 73, 125, 0.25);
+}
+
+#my-container{
+	display: flex;
+    padding: 20px 20px;
+			
+}
+
+.Youtube{
+	width:100%;
+	
+}
+
+.statistics{
+	display: block;
+    text-align: left;
+	justify-content: center;
+	margin-left:30px;
+	
+}
+
+h4{
+	font-size:50px;
+	
+}
+
+
+/********myself-showoff*******/
+
+
+#container{
+	width:100%;
+	background: linear-gradient(to right, rgba(156, 139, 103, 0.8), rgb(66, 238, 172, 0.5));
+	padding: 30px 0;
+	
+}
+.myimage img{
+	width:35%;
+	text-align:center;
+	padding-left:30%;
+	
+}
+.myself-showoff{
+	text-align: center;
+	justify-content: center;
+}
+
+
+/* contact form area start */
+
+
+
+#contact_form{
+	max-width:1000px;
+	margin:100px;
+	padding:15px 20px;
+	overflow:hidden;
+	background-color:#CDF0EA;
+	
+	
+}
+
+.message_me{
+	text-align:center;
+	
+	
+}	
+input[type=text]{
+	margin: 10px;
+	width:300px;
+	border:1px sold grey;
+	color:white;
+	border-radius:10px;
+	background-color:#DDDDDD;
+	padding:5px 5px;
+	
+}
+input[type=email]{
+	width:300px;
+	border:1px sold grey;
+	color:white;
+	border-radius:10px;
+	background-color:#DDDDDD;
+	padding:5px 5px;
+}
+
+	
+input[type=phone]{
+	width:300px;
+	border:1px sold grey;
+	color:white;
+	border-radius:10px;
+	background-color:#DDDDDD;
+	padding:5px 5px;
+}
+
+
+textarea{
+	width:300px;
+	border:1px sold grey;
+	color:white;
+	border-radius:10px;
+	background-color:#DDDDDD;
+	padding:5px 5px;
+}
+
+input[type=submit]{
+	
+	width:200px;
+	height:50px;
+	border:1px sold white;
+	font-size:25px;
+	color:white;
+	border-radius:30px;
+	background-color:#3C5186;
+	padding:10px 10px;
+}
+#submit:hover{
+	background-color:#FFA900;
+	color:#01937C;
+}
+
+
+/********* Footer section******/
+
+#footer-section{
+    background-color: #5E8B7E; 
+    height: 50%;
+    
+}
+
+.footer_content{
+    display: block;
+    text-align: center;
+    justify-content: center;
+	padding: 20px 0;
+}
