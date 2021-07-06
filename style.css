@@ -184,10 +184,12 @@ h4{
 /********myself-showoff*******/
 
 
-#container{
+#showoff-container{
 	width:100%;
 	background: linear-gradient(to right, rgba(156, 139, 103, 0.8), rgb(66, 238, 172, 0.5));
 	padding: 30px 0;
+	margin-top: 100px;
+	
 	
 }
 .myimage img{
@@ -282,6 +284,7 @@ input[type=submit]{
 #submit{
 	margin-left: 50px;
 }
+
 
 
 /********* Footer section******/
