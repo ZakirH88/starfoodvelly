@@ -209,6 +209,7 @@ h4{
 #contact_form{
 	max-width:1000px;
 	margin:100px;
+	margin-left: 180px;
 	padding:15px 20px;
 	overflow:hidden;
 	background-color:#CDF0EA;
@@ -277,6 +278,9 @@ input[type=submit]{
 #submit:hover{
 	background-color:#FFA900;
 	color:#01937C;
+}
+#submit{
+	margin-left: 50px;
 }
 
 
